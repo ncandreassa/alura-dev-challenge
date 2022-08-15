@@ -1,0 +1,35 @@
+body {
+    background-color: #051D3B;
+    margin: 32px 32px;
+}
+
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search {
+    height: 56px;
+    display: flex;
+    justify-content: center;
+}
+
+.search-input {
+    width: 752px;
+    background: rgba(255, 255, 255, 0.16);
+    border-radius: 8px;
+    border: none;
+    color: #FFFFFF;
+    padding: 16px 14px;
+    font-family:'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.search-input::placeholder {
+    color: #FFFFFF;
+    opacity: 0.64;
+}
