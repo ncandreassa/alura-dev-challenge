@@ -17,12 +17,16 @@ body {
 
 .search-input {
     width: 752px;
+}
+
+.search-input,
+.menu-input {
     background: rgba(255, 255, 255, 0.16);
     border-radius: 8px;
     border: none;
     color: #FFFFFF;
     padding: 16px 14px;
-    font-family:'Inter';
+    font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -32,4 +36,115 @@ body {
 .search-input::placeholder {
     color: #FFFFFF;
     opacity: 0.64;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    font-family: 'Inter';
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+li {
+    padding-top: 16px;
+    display: flex;
+    align-items: center;
+}
+
+a {
+    padding-left: 16px;
+}
+
+.menu-title {
+    text-transform: uppercase;
+    letter-spacing: 0.4em;
+    color: #FFFFFF;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.menu-lateral-direito {
+    width: 270px;
+}
+
+.menu-lateral-direito div {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-input {
+    margin-top: 16px;
+}
+
+.menu-input::placeholder {
+    color: #FFFFFF;
+    opacity: 0.64;
+}
+
+.personalizacao {
+    margin-top: 40px;
+}
+
+.campo-personalizacao {
+    background: rgba(255, 255, 255, 0.16);
+    border-radius: 8px;
+    border: none;
+    color: #FFFFFF;
+    padding: 16px 14px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    opacity: 0.64;
+    cursor: pointer;
+}
+
+.input-color-container {
+    background: rgba(196, 196, 196, 0.01);
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+    padding: 8px;
+    margin-top: 16px;
+}
+
+.input-color {
+    background-color: transparent;
+    padding: 0px;
+    border-radius: 4px;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+    border: none;
+}
+
+.input-color::-webkit-color-swatch {
+    border-radius: 4px;
+    border: none;
+}
+
+button {
+    margin-top: 32px;
+    height: 56px;
+    background: #5081FB;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
 }

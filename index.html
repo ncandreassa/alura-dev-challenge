@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
     <title>Alura Dev</title>
 </head>
+
 <body>
     <header class="site-header">
         <div>
@@ -22,5 +24,49 @@
             <img src="assets/author.png">
         </div>
     </header>
+
+    <section class="content">
+
+        <nav class="menu-lateral-esquerdo">
+            <p class="menu-title">Menu</p>
+            <ul>
+                <li>
+                    <img src="assets/Icons/Icon (1).svg">
+                    <a class="nav-link" href="#"></i>Editor de código</a>
+                </li>
+                <li>
+                    <img src="assets/Icons/Icon (2).svg">
+                    <a class="nav-link" href="#"></i>Comunidade</a>
+                </li>
+            </ul>
+        </nav>
+
+
+        <nav class="menu-lateral-direito">
+            <div>
+                <p class="menu-title">Seu projeto</p>
+                <input class="menu-input" type="text" placeholder="Nome do seu projeto">
+                <input class="menu-input" type="text" placeholder="Descrição do seu projeto">
+            </div>
+
+            <div class="personalizacao">
+
+                <p class="menu-title">Personalização</p>
+
+                <select class="campo-personalizacao">
+                    <option value="JavaScript">JavaScript</option>
+                    <option value="HTML">HTML</option>
+                    <option value="CSS">CSS</option>
+                </select>
+
+                <div class="input-color-container">
+                    <input type="color" class="input-color" value="#6BD1FF">
+                </div>
+
+                <button>Salvar projeto</button>
+            </div>
+        </nav>
+    </section>
 </body>
+
 </html>
